@@ -1,0 +1,89 @@
+
+
+body{
+    background-color: rgb(238, 239, 240);
+    font-family: Arial, Helvetica, sans-serif;
+}
+.containerGrid{
+    display: grid;
+    justify-content: space-evenly;
+    align-items: top;
+    grid-template-columns: 33% 33% 33%;
+}
+
+.cardstyle{
+    margin: 20px;
+}
+
+.card-title{
+    margin-bottom: 15px;
+    font-weight: bold;
+    color: rgb(27, 163, 45);
+}
+
+.abilities{
+    margin-bottom: 10px;
+    
+    
+}
+
+.card-img-top{
+    padding: 10px;
+}
+
+.movieWrapper{
+    height: 145px;
+    overflow: hidden;
+    font-family: 'Roboto', sans-serif;
+    font-style: italic;
+}
+
+.cardWrapper{
+    border-radius: 0% !important;
+    border: none;
+}
+
+
+.navbar{
+    position: sticky;
+    top: 0;
+    z-index: 1071;
+    background-color: #6730EA !important;
+    box-shadow: 0 0.5rem 1rem rgba(0,0,0,0.15), inset 0 -1px 0 rgba(255,255,255,0.15);
+}
+
+.fa-solid{
+    margin-left: 20px;
+}
+
+
+
+.navbar-title{
+    color: white;
+    font-size: 25px;
+    font-weight: bold;
+    letter-spacing: 1px;
+    margin-right: 100px;
+    pointer-events: none;
+}
+
+.nav-link{
+    color: white !important;
+}
+
+
+
+.btn{
+    border-color: white;
+    color: white;
+}
+
+.btn:hover {
+    border-color: white;
+    color: #6730EA;
+    background-color: white;
+}
+
+.pagination{
+    justify-content: center;
+}
