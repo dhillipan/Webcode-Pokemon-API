@@ -7,7 +7,7 @@ navBar.innerHTML="";
 navBar.className = "navbar navbar-expand-lg bg-body-tertiary";
         
         navBar.innerHTML = `
-        <div class="container-fluid">
+        <div class="container-fluid containerAdjust">
         <div class="navbar-brand fa-solid fa-laptop-code fa-2xl" style="color: #ffffff;"></div>
         <div class="navbar-brand navbar-title" >WEBCODE</div>
         

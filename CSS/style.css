@@ -11,6 +11,66 @@ body{
     grid-template-columns: 33% 33% 33%;
 }
 
+@media only screen and (max-width: 1200px) {
+    .containerGrid{
+        justify-content: space-evenly;
+        grid-template-columns: 45% 45% ;
+    }
+  }
+
+  @media only screen and (max-width: 780px) {
+    
+    .containerGrid{
+        justify-content: space-evenly;
+        grid-template-columns: 80% ;
+    }
+
+
+  }
+
+  @media only screen and (max-width: 991px) {
+    
+    .containerAdjust{
+        justify-content: center !important;
+    }
+
+    .navbar-title{
+        margin-right: 10px !important;
+    }
+
+
+  }
+
+  @media only screen and (max-width: 400px) {
+    
+    .movieWrapper , .weightWrapper {
+        /*visibility: hidden !important;*/
+        display: none;
+      }
+
+    .containerGrid{
+        grid-template-columns: 100% ;
+    }
+
+
+  }
+
+  @media only screen and (max-width: 247px) {
+    
+    .movieWrapper , .weightWrapper , .abilities , .navbar-title{
+        display: none;
+      }
+
+    .navbar-brand{
+        padding: 20px !important;
+    }
+
+        
+
+
+  }
+
+  
 .cardstyle{
     margin: 20px;
 }
